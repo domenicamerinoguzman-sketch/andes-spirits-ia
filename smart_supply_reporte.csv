@@ -1,0 +1,16 @@
+sku_id,nombre,categoria,pais_origen,stock_actual,forecast_mes1,forecast_mes2,forecast_mes3,dias_cobertura,alerta,orden_sugerida,margen,prioridad
+VT-001,Cabernet Sauvignon Reserva,Vino,Chile,200,0,0,0,0,🔴 BLOQUEADO REGULATORIO,0,0.35,BLOQUEADO
+VT-002,Malbec Gran Reserva,Vino,Argentina,95,35,32,33,85,🟢 OK,0,0.35,OK
+VT-003,Tempranillo Crianza,Vino,España,169,61,60,61,84,🟢 OK,0,0.35,OK
+VT-004,Sauvignon Blanc,Vino,Chile,142,58,54,59,75,🟢 OK,0,0.35,OK
+VT-005,Chardonnay Barrica,Vino,Argentina,83,106,104,107,24,🟢 OK,99,0.35,OK
+VT-006,Pinot Noir,Vino,Chile,91,48,50,48,56,⚠️ REGISTRO PRÓXIMO A VENCER,0,0.35,ALERTA
+ES-001,Cava Brut Nature,Espumante,España,170,93,86,87,58,⚠️ REGISTRO PRÓXIMO A VENCER,34,0.4,ALERTA
+ES-002,Prosecco DOC,Espumante,Austria,5,0,0,0,0,🔴 BLOQUEADO REGULATORIO,0,0.4,BLOQUEADO
+LI-001,Aguardiente Premium,Licor,Colombia,150,127,110,127,37,🟢 OK,0,0.45,OK
+LI-002,Amaretto di Saronno,Licor,España,77,81,94,80,27,🟢 OK,118,0.45,OK
+LI-003,Baileys Original,Licor,España,75,101,97,100,23,⚠️ REGISTRO PRÓXIMO A VENCER,153,0.45,ALERTA
+DE-001,Whisky Single Malt 12Y,Destilado,Austria,109,59,69,70,50,🟢 OK,81,0.5,OK
+DE-002,Gin Botanico Premium,Destilado,España,173,44,42,43,121,🟡 SOBRESTOCK,0,0.5,SOBRESTOCK
+DE-003,Vodka Artesanal,Destilado,Colombia,138,0,0,0,0,🔴 BLOQUEADO REGULATORIO,0,0.5,BLOQUEADO
+VT-007,Carmenere Reserva,Vino,Chile,58,0,0,0,0,🔴 BLOQUEADO REGULATORIO,0,0.35,BLOQUEADO

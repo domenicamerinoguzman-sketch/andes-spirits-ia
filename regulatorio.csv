@@ -1,0 +1,16 @@
+sku_id,nombre,pais_origen,fecha_venc_registro,dias_para_vencimiento,certificado_origen,etiqueta_validada,estado_regulatorio,bloqueado
+VT-001,Cabernet Sauvignon Reserva,Chile,2026-09-22,201,True,False,BLOQUEADO,True
+VT-002,Malbec Gran Reserva,Argentina,2026-07-19,136,True,True,OK,False
+VT-003,Tempranillo Crianza,España,2026-11-23,263,True,True,OK,False
+VT-004,Sauvignon Blanc,Chile,2026-08-17,165,True,True,OK,False
+VT-005,Chardonnay Barrica,Argentina,2026-08-03,151,True,True,OK,False
+VT-006,Pinot Noir,Chile,2026-04-13,39,True,False,ALERTA,False
+ES-001,Cava Brut Nature,España,2026-05-23,79,False,True,ALERTA,False
+ES-002,Prosecco DOC,Austria,2026-10-19,228,True,False,BLOQUEADO,True
+LI-001,Aguardiente Premium,Colombia,2026-08-07,155,True,True,OK,False
+LI-002,Amaretto di Saronno,España,2026-06-22,109,True,True,OK,False
+LI-003,Baileys Original,España,2026-04-25,51,True,True,ALERTA,False
+DE-001,Whisky Single Malt 12Y,Austria,2027-02-14,346,True,True,OK,False
+DE-002,Gin Botanico Premium,España,2026-07-10,127,True,True,OK,False
+DE-003,Vodka Artesanal,Colombia,2027-01-03,304,False,True,BLOQUEADO,True
+VT-007,Carmenere Reserva,Chile,2026-11-09,249,True,False,BLOQUEADO,True
