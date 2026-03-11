@@ -23,10 +23,10 @@ st.markdown("""
 
 @st.cache_data
 def cargar_todo():
-    df_skus = pd.read_csv("data/skus.csv")
-    df_reg = pd.read_csv("data/regulatorio.csv")
-    df_ss = pd.read_csv("data/smart_supply_reporte.csv")
-    df_cli = pd.read_csv("data/clientes.csv")
+    df_skus = pd.read_csv("skus.csv")
+    df_reg = pd.read_csv("regulatorio.csv")
+    df_ss = pd.read_csv("smart_supply_reporte.csv")
+    df_cli = pd.read_csv("clientes.csv")
     return df_skus, df_reg, df_ss, df_cli
 
 df_skus, df_reg, df_ss, df_cli = cargar_todo()
@@ -347,3 +347,4 @@ elif modulo == "Valor de Negocio":
         ]
     })
     st.dataframe(df_stack, use_container_width=True, hide_index=True)
+
