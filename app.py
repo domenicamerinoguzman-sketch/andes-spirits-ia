@@ -13,6 +13,14 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+st.markdown("""
+<style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    [data-testid="stDecoration"] {display: none;}
+</style>
+""", unsafe_allow_html=True)
+
 @st.cache_data
 def cargar_todo():
     df_skus = pd.read_csv("data/skus.csv")
@@ -339,6 +347,3 @@ elif modulo == "Valor de Negocio":
         ]
     })
     st.dataframe(df_stack, use_container_width=True, hide_index=True)
-    [client]
-showSidebarNavigation = False
-toolbarMode = "minimal"
